@@ -3,8 +3,7 @@ version: 0.1
 phases:
   pre_build:
     commands:
-      - echo Logging in to Amazon ECR…
-      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 887583529513.dkr.ecr.us-east-1.amazonaws.com
+      - echo is login needed with service role in codebuild setup?      
 
   build:
     commands:
