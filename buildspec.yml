@@ -13,7 +13,7 @@ phases:
   post_build:
     commands:
       - echo Pushing the Docker image…
-      - docker push 887583529513.dkr.ecr.us-east-1.amazonaws.com/phoenix/phoenix-ui:latest
+      # - docker push 887583529513.dkr.ecr.us-east-1.amazonaws.com/phoenix/phoenix-ui:latest
 
 artifacts:
   files:
