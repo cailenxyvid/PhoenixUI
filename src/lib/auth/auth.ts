@@ -6,6 +6,7 @@ import Cognito from "@auth/sveltekit/providers/cognito";
 export const { handle, signIn, signOut } = SvelteKitAuth({
   providers: [Cognito],
   debug: true,
+  trustHost: true,
   callbacks: {
     async jwt({ token, user, account, profile }) {
       if (user) {
