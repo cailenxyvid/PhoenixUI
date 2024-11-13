@@ -8,8 +8,8 @@ phases:
 
   build:
     commands:
-      - docker build -t phoenix/phoenix-ui .
-      - docker tag phoenix/phoenix-ui:latest 887583529513.dkr.ecr.us-east-1.amazonaws.com/phoenix/phoenix-ui:latest
+      # - docker build -t phoenix/phoenix-ui .
+      # - docker tag phoenix/phoenix-ui:latest 887583529513.dkr.ecr.us-east-1.amazonaws.com/phoenix/phoenix-ui:latest
 
   post_build:
     commands:
