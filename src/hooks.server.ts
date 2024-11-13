@@ -1,7 +1,7 @@
 import type { HandleServerError } from '@sveltejs/kit';
 
 // authjs magic interception
-// export { handle } from "$lib/auth/auth"
+export { handle } from "$lib/auth/auth"
 
 // https://kit.svelte.dev/docs/hooks#shared-hooks-handleerror
 // export const handleError: HandleServerError = async ({ error, event, status, message }) => {
